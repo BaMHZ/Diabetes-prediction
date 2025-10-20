@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Type Diabetes Predicted Result</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="bg-white p-8 rounded-lg shadow-lg max-w-sm">
+      <h1 class="text-xl font-bold text-center mb-4">
+        Type Diabetes Predicted Result
+      </h1>
+      <p class="text-gray-800 text-lg text-center">
+        The predicted type of diabetes is:
+      </p>
+      <p class="text-center text-2xl font-semibold text-blue-500">
+        {{ predicted_diabetes }}
+      </p>
+      <p class="text-gray-800 text-lg text-center mt-4">
+        Probability of this prediction:
+      </p>
+      <p class="text-center text-2xl font-semibold text-green-500">
+        {{ probability }}
+      </p>
+    </div>
+  </body>
+</html>

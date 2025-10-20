@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasien Input Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-6">Pasien Input Form</h2>
+        <form action="/submit" method="post">
+            <!-- Age -->
+            <div class="mb-4">
+                <label for="Age" class="block text-gray-700 font-semibold mb-2">Age</label>
+                <input type="number" id="Age" class="w-full p-2 border rounded" step="1" min="0" name="Age">
+            </div>
+
+            <!-- Birth Weight -->
+            <div class="mb-4">
+                <label for="Birth Weight" class="block text-gray-700 font-semibold mb-2">Birth Weight</label>
+                <input id="Birth Weight" class="w-full p-2 border rounded" name="Birth Weight">
+            </div>
+
+            <!-- Blood Glucose Levels -->
+            <div class="mb-4">
+                <label for="Blood Glucose Levels" class="block text-gray-700 font-semibold mb-2">Blood Glucose Levels</label>
+                <input id="Blood Glucose Levels" class="w-full p-2 border rounded" name="Blood Glucose Levels">
+            </div>
+
+            <!-- Blood Pressure -->
+            <div class="mb-4">
+                <label for="Blood Pressure" class="block text-gray-700 font-semibold mb-2">Blood Pressure</label>
+                <input id="Blood Pressure" class="w-full p-2 border rounded" name="Blood Pressure">
+            </div>
+
+            <!-- BMI -->
+            <div class="mb-4">
+                <label for="BMI" class="block text-gray-700 font-semibold mb-2">BMI</label>
+                <input type="number" id="BMI" class="w-full p-2 border rounded" step="0.1" min="0" name="BMI">
+            </div>
+
+            <!-- Cholesterol Levels -->
+            <div class="mb-4">
+                <label for="Cholesterol Levels" class="block text-gray-700 font-semibold mb-2">Cholesterol Levels</label>
+                <input type="number" id="Cholesterol Levels" class="w-full p-2 border rounded" step="0.1" min="0" name="Cholesterol Levels">
+            </div>
+
+            <!-- Digestive Enzyme Levels -->
+            <div class="mb-4">
+                <label for="Digestive Enzyme Levels" class="block text-gray-700 font-semibold mb-2">Digestive Enzyme Levels</label>
+                <input type="number" id="Digestive Enzyme Levels" class="w-full p-2 border rounded" step="0.1" min="0" name="Digestive Enzyme Levels">
+            </div>
+
+            <!-- Insulin Level -->
+            <div class="mb-4">
+                <label for="Insulin Levels" class="block text-gray-700 font-semibold mb-2">Insulin Levels</label>
+                <input type="number" id="Insulin Levels" class="w-full p-2 border rounded" step="0.1" min="0" name="Insulin Levels">
+            </div>
+
+            <!-- Pulmonary Function -->
+            <div class="mb-4">
+                <label for="Pulmonary Function" class="block text-gray-700 font-semibold mb-2">Pulmonary Function</label>
+                <input type="number" id="Pulmonary Function" class="w-full p-2 border rounded" step="0.1" min="0" name="Pulmonary Function">
+            </div>
+
+            <!-- Weight Gain During Pregnancy -->
+            <div class="mb-4">
+                <label for="Weight Gain During Pregnancy" class="block text-gray-700 font-semibold mb-2">Weight Gain During Pregnancy</label>
+                <input type="number" id="Weight Gain During Pregnancy" class="w-full p-2 border rounded" step="0.1" min="0" name="Weight Gain During Pregnancy">
+            </div>
+
+            <!-- Submit Button -->
+            <div class="mt-6">
+                <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-700">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
