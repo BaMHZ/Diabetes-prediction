@@ -132,5 +132,6 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-# Project specific - Model file excluded due to size (155MB > GitHub limit 100MB)
+# Project specific - Large files excluded due to size (exceeds GitHub limit 100MB)
 model.pkl
+
